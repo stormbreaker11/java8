@@ -37,6 +37,7 @@ public class TestClass {
 		collect(Collectors.groupingBy(Employee::getGender, Collectors.counting()));
 		
 		System.out.print(collect2);
+		System.out.print("Employees :" + collect2);
 		
 		
 	}
